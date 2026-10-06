@@ -1,0 +1,14 @@
+{
+  "name": "trueredact",
+  "version": "1.0.0",
+  "description": "In-browser PDF redactor that permanently deletes text by rasterizing every page. 100% client-side.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node test/redact.test.js"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "3.11.174"
+  }
+}

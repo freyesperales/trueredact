@@ -1,0 +1,25 @@
+# Dependencies (dev-only; the app itself needs no install)
+node_modules/
+
+# npm / tooling
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.cache/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Local test artifacts & scratch output
+*.redacted.pdf
+*-redacted.pdf
+/tmp/
+scratch/
+server.cjs
+.playwright-mcp/
